@@ -7,10 +7,14 @@
 
 import UIKit
 
-class Laabel_class: UIViewController {
+class Uclass: UIViewController {
+    @IBOutlet weak var B: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        B.backgroundColor = UIColor.blue
+
     }
 }
 
