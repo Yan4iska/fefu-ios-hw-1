@@ -1,8 +1,11 @@
-//
-//  Registration.swift
-//  fefuactivity
-//
-//  Created by wsr2 on 30.11.2021.
-//
+import UIKit
 
-import Foundation
+class Registration: UIViewController {
+    @IBOutlet weak var obj: UIButton!
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+    }
+}

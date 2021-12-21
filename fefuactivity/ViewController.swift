@@ -8,6 +8,8 @@
 import UIKit
 
 class Laabel_class: UIViewController {
+    @IBOutlet weak var button: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
